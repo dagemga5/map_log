@@ -1,0 +1,56 @@
+.card{
+    width: 250px;
+    height: 370px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: left;
+justify-content: space-around;
+}
+label{
+    width: max-content;
+    color: tomato;
+    font-size: 13px;
+    border-bottom:1px solid tomato;
+}
+.desc{
+ font-size: 14px;
+}
+.images{
+    width: 250px;
+    height:150px;
+}
+.stars{
+  color: gold;  
+} 
+.username{
+    font-size: 14px;
+}
+.date{
+    font-size: 12px ;
+ }
+ form{
+     width: 250px;
+     height: 250px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ .logout{
+    background-color: tomato;
+}
+.login{
+    background-color: teal;
+}
+.Register{
+    background-color: slateblue;
+}
+
+.buttons,.logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
